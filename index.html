@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/regis.css">
+</head>
+
+<body>
+  <form action="action_page.php">
+    <div class="container">
+      <h1>Registration for Nursery</h1>
+      <p>Please fill out this form to apply for admission of your child in nursery.</p>
+      <hr>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      <label for="date"><b>Date of birth : </b></label>
+      <input type="date" placeholder="Enter DOB" name="date" id="date" required><br>
+      <label for="Address"><b>Enter Address</b></label>
+      <input type="text" placeholder="Enter Address" name="Address" id="Address" required>
+
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+
+      <h2>Enter any talent of child</h2>
+
+      <textarea id="tutorial" name="tutorial" rows="5" cols="40" placeholder="Enter you comment here"></textarea>
+
+      <p>By applying for admission you agree to our <a href="#">Terms & Privacy</a>.</p>
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+    <div class="container signin">
+      <p>Already applied for admission? <a href="#">Sign in</a>.</p>
+    </div>
+  </form>
+</body>
+
+</html>
